@@ -5,8 +5,9 @@ public class Test02 {
 		System.out.println("바이트 코드 생성 결과 확인하기");
 		System.out.println(4+6);
 		System.out.println(4 + 6 + "println메소드");
-		System.out.println();
-		System.out.println();
+		System.out.println("println()" + 4 + 6);
+		System.out.println(4 + "println()" + 8 + 3);
+		System.out.println(4 + "println()" + (8 + 3));
 		System.out.println();
 		System.out.println();
 	}
