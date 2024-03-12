@@ -9,8 +9,8 @@ public class Test02 {
 		System.out.println(4 + "println()" + 8 + 3);
 		System.out.println(4 + "println()" + (8 + 3));
 		System.out.println(); // 줄바꿈
-		System.out.print(4+9+"출력 메소드 확인 중...");
+		System.out.print(4+9+"출력 메소드 확인 중...\n");
 		System.out.print("집가고싶다");
-		System.out.println();
+		System.out.printf("%3d + %3d = %5d\n", 2, 4, 2+4);
 	}
 }
