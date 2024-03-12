@@ -11,6 +11,8 @@ public class Test02 {
 		System.out.println(); // 줄바꿈
 		System.out.print(4+9+"출력 메소드 확인 중...\n");
 		System.out.print("집가고싶다");
-		System.out.printf("%3d + %3d = %5d\n", 2, 4, 2+4);
+		System.out.printf("%3d + %3d = %-5d\n", 2, 4, 2+4);
+		System.out.printf("%f    %c    %s", 3.141592, '\u0422', "집가고싶다");
+        System.out.println();
 	}
 }
