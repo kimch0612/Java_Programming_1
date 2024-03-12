@@ -9,6 +9,6 @@ public class Test03 {
             mainA = 20;
             int B = 30; // B의 유효범위는 if문 내에서만
         } // B변수 소멸
-        System.out.println("B = " + B);
+        System.out.println("B = " + 30);
     }
 }
