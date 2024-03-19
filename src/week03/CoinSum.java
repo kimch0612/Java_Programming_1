@@ -29,7 +29,7 @@ public class CoinSum {
         five_sip = sc.nextInt();
         System.out.print("10원은 몇 개?      ");
         sip = sc.nextInt();
-        System.out.println("-----------------");
+        System.out.println("-----------------------");
         int total = (50000 * five_man) + (10000 * man) + (5000 * five_chun) + (1000 * chun) + (500 * five_baek) + (100 * baek) + (50 * five_sip) + (10 * sip);
         String str = String.format("%,d", total);
         System.out.println("총 금액: " + str + "원");
