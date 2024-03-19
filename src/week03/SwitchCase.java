@@ -12,7 +12,7 @@ public class SwitchCase {
             case 6: hakjum = 'D'; break;
             default: hakjum = 'F';
         }
-
+        
         System.out.println(hakjum + "학점입니다.");
     }
 }
