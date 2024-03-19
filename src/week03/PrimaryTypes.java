@@ -17,9 +17,24 @@ public class PrimaryTypes {
         long dataL = 2500L;
         System.out.println(dataL);
 
-        float dataF = 3.14; // constant pool에 double로 저장되어 있기 때문에 float로 저장 불가능
+        float dataF = 3.14F; // constant pool에 double로 저장되어 있기 때문에 float로 저장 불가능
         double dataD = 3.141592;
+        System.out.println(dataF);
+        System.out.println(dataD);
 
+        boolean dataBool = true;
+        boolean dataBool2 = false;
+        System.out.println(dataBool);
+        System.out.println(dataBool2);
+
+        char dataC = 'A'; // 문자 A는 유니코드표에서 십진수 65
+        char dataC2 = '가'; // 문자 가는 유니코드표에서 십진수 \uac00
+        char dataC3 = '3'; // 문자 3은 유니코드표에서 십진수 52
+        char dataC4 = '\uac00';
+        System.out.println(dataC);
+        System.out.println(dataC2);
+        System.out.println(dataC3);
+        System.out.println(dataC4);
 
         // 기본 자료형
         // - 정수 (byte, short, int, long)
