@@ -2,7 +2,7 @@ package week03;
 
 public class IFControl {
     public static void main(String[] args) {
-        int jumsu = 96;
+        int jumsu = 76;
         char hakjum;
         // if (jumsu >= 70) {
         //     System.out.println("Pass");
