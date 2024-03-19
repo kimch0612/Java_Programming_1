@@ -7,6 +7,11 @@ public class PrimaryTypes {
         short dataS = 32767;
         short dataS2 = (short)32768; // short 범위 초과
         
+        System.out.println(dataB);
+        System.out.println(dataB2);
+        System.out.println(dataS);
+        System.out.println(dataS2);
+        
         // 기본 자료형
         // - 정수 (byte, short, int, long)
         // - 실수 (float, double)
