@@ -6,5 +6,6 @@ public class Keyln {
         Scanner keyln = new Scanner(System.in);
         int coin = keyln.nextInt();
         System.out.println(coin);
+        keyln.close();
     }
 }
