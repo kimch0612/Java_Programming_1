@@ -10,6 +10,7 @@ public class IFControl {
         // } else {
         //     System.out.println("Fail");
         //     System.out.println("ㅅㄱ");
+        // }
         if (jumsu >= 90) hakjum = 'A';
         else if (jumsu >= 80) hakjum = 'B';
         else if (jumsu >= 70) hakjum = 'C';
