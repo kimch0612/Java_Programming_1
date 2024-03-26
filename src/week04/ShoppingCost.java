@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class ShoppingCost {
     public static void main(String[] args) {
-        int i = 0;
         int cost = 0;
         Scanner sc = new Scanner(System.in);
         do {
