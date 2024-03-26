@@ -11,5 +11,6 @@ public class ShoppingCost {
             if (cost >= 100000) break;
         } while(true);
         System.out.println("총 구매 가격: " + cost);
+        sc.close();
     }
 }

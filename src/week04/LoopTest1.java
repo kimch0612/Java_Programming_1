@@ -22,5 +22,6 @@ public class LoopTest1 {
             System.out.println("두 수의 합은 " + (a+b));
             i++;
         }while(i<3);
+        sc.close();
     }
 }
