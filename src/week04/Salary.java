@@ -17,5 +17,6 @@ public class Salary {
         System.out.println("현재 연봉액 : " + (int)currentSalary);
         System.out.println("연봉 인상액 : " + (int)raise);
         System.out.println("새로운 연봉 : " + (int)newSalary);
+        sc.close();
     }
 }
