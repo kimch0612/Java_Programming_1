@@ -15,10 +15,10 @@ public class Login {
             } else if (flag < 2) {
                 System.out.println("암호가 틀립니다!"); flag++;
                 System.out.print("암호를 입력하세요: "); Answer = sc.nextLine();
-            }
-            else {
+            } else {
                 System.out.println("접속을 거부합니다!"); Flag = false;
             }
         }
+        sc.close();
     }
 }
