@@ -7,11 +7,13 @@ public class CountLetter {
         Scanner sc = new Scanner(System.in);
         System.out.print("문자열을 입력하세요: "); String str = sc.nextLine();
         int leng = str.length();
-        int str_e = 0;
+        int str_e = 0, str_o = 0;
         for (int i=0; i<leng; i++) {
             if (str.charAt(i) == 'e') str_e++;
+            else if (str.charAt(i) == 'o') str_o++;
         }
         System.out.println("문자 e의 개수: " + str_e);
+        System.out.println("문자 o의 개수: " + str_o);
         sc.close();
     }
 }
