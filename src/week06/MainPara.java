@@ -3,7 +3,7 @@ package week06;
 public class MainPara {
     public static void main(String[] ar) {
         String a = ar[0], b = ar[1], c = ar[2];
-        
+
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -16,5 +16,8 @@ public class MainPara {
 
         System.out.println(d+1);
         System.out.println(e+1);
+
+        int k = Integer.parseInt("99");
+        System.out.println("k=" + (k+100));
     }
 }
