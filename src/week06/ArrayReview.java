@@ -24,5 +24,7 @@ public class ArrayReview {
         for (int[] k : jumsu)
             for (int t : k)
                 System.out.println(t);
+
+        int[][] jumsu5 = new int[3][5];
     }
 }
