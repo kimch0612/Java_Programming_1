@@ -1,11 +1,18 @@
 package week08;
 
 class SampleClass {
+    // 필드==데이터==속성==변수 또는 상수==멤버변수
     String name;
     int age;
 
+    // 메소드
     void print() {
         System.out.println(name + ", " + age);
+    }
+    // 생성자==객체생성==필드초기화
+    public SampleClass() {
+        name = "No Name";
+        age = -99;
     }
 }
 
@@ -16,6 +23,5 @@ public class WhatIsClass {
         a.age = 12;
         a.print();
         String str = new String("egg");
-
     }
 }
