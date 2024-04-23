@@ -8,6 +8,6 @@ public class WhatIsClass {
         System.out.println(name + ", " + age);
     }
     public static void main(String[] args) {
-
+        WhatIsClass a = new WhatIsClass(); // a 객체 생성
     }
 }
