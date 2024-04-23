@@ -31,7 +31,7 @@ public class CarMain {
     public static void main(String[] args) {
         Car a = new Car();
         a.print();
-        Car b = new Car("Yellow", "Hyundai", 100);
+        Car b = new Car("Yellow", "Hyundai", 1000);
         b.print();
         b.drive();
         a.start();
