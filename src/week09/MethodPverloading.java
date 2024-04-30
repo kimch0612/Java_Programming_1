@@ -8,7 +8,7 @@ public class MethodPverloading {
         System.out.println(a);
     }
     public static void print(double a, int b) {
-        System.out.println("원 둘레: " + (2*a*r));
+        System.out.println("원 둘레: " + (2*a*b));
     }
     public static String print(String a) {
         return a;
