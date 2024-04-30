@@ -10,10 +10,13 @@ class Patient {
         System.out.println("나이: " + age);
     }
     public Patient() {}
-    public Patient(int age, String...P) {
+    public Patient(int age, String name) {
+        this.name = name;
         this.age = age;
-        this.name = P[0];
-        this.disease = P[1];
+    }
+    public Patient(int age, String name, String disease) {
+        this(age, name);
+        this.disease = disease;
     }
 }
 
