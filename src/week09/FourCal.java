@@ -16,7 +16,7 @@ public class FourCal {
     public static void main(String[] args) {
         cal(3, 4); // 덧셈
         cal(3.0, 5.6); // 곱셈
-        cal(5); // 홀수 짝수 판별
+        cal(6); // 홀수 짝수 판별
         System.out.println(cal("홍길동"));
     }
 }
