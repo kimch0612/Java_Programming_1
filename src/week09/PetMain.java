@@ -1,7 +1,7 @@
 package week09;
 
 class Pet {
-    String name, bossName;
+    String name, bossName, breed;
     int age;
 
     void search() {
@@ -29,6 +29,12 @@ class Pet {
         this.bossName = bossName;
         this.age = age;
     }
+    public Pet (int age, String...data) {
+        this.age = age;
+        this.name = data[0];
+        this.bossName = data[1];
+        this.breed = data[2];
+    }
 }
 
 public class PetMain {
@@ -39,10 +45,7 @@ public class PetMain {
         Pet b = new Pet("AA", "BB", 10);
         b.showPet();
         b.search();
-        b.delBossName();
-        b.delName();
-        b.delAge();
-        b.showPet();
-        b.search();
+        Pet puppy = new Pet(10, "꼬미", "Lee", "말티즈");
+        puppy.showPet();
     }
 }
