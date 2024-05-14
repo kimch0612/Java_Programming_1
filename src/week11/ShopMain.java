@@ -2,8 +2,8 @@ package week11;
 import java.util.Scanner;
 
 class Shop{
-    int qty = 0;
-    String shopName = "", owner = "";
+    private int qty = 0;
+    private String shopName = "", owner = "";
 
     void print_info() {
         System.out.println("가게 이름: " + shopName);
@@ -16,6 +16,9 @@ class Shop{
         System.out.print("갱신할 품목 개수를 입력하세요: "); new_qty = sc.nextInt();
         qty = new_qty;
         sc.close();
+    }
+    void reduce_qty(int tmp) {
+        qty = tmp;
     }
     public Shop(String shopName) {
         this(shopName, "NULL", -1);
@@ -37,11 +40,13 @@ class Shop{
 
 public class ShopMain {
     public static void main(String[] args) {
-        Shop a = new Shop();
-        a.print_info();
+        Shop a = new Shop(); // Shop 클래스 자료형으로 a객체 생성
+        a.print_info(); // 객체 a에 있는 print_info 메소드 호출
         Shop b = new Shop("costco", "asdf");
         b.print_info();
         b.reduce_qty();
+        b.print_info();
+        b.reduce_qty(1000);
         b.print_info();
     }
 }
