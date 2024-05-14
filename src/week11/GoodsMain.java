@@ -17,8 +17,9 @@ class Goods {
         System.out.println("사장 이름: " + owner);
         System.out.println("// 취급 물건 //");
         for (String[] i : GoodsList)
-            for (String k : i)
-                System.out.println(k);
+            for (String k : i) {
+                if (k != null) System.out.println(k);
+            }
     }
 
     public Goods(String ShopName, String owner) {
@@ -30,9 +31,15 @@ class Goods {
         GoodsQTY[0] = new int[10];
         GoodsQTY[1] = new int[10];
         GoodsQTY[2] = new int[10];
+        GoodsList[0][0] = "Hello";
     }
 }
 
 public class GoodsMain {
-
+    public static void main(String[] args) {
+        Goods a = new Goods("costco", "asdf");
+        a.print_info();
+        a.Insert_Goods(0, 0, "Watermellon", 10);
+        a.print_info();
+    }
 }
