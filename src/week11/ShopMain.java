@@ -39,5 +39,9 @@ public class ShopMain {
     public static void main(String[] args) {
         Shop a = new Shop();
         a.print_info();
+        Shop b = new Shop("costco", "asdf");
+        b.print_info();
+        b.reduce_qty();
+        b.print_info();
     }
 }
