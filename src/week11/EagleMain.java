@@ -29,3 +29,4 @@ public class EagleMain {
         b.print_info();
     }
 }
+//다음주에 쪽지시험 볼거임 (이 코드는 어떤걸 의미하나? 이런거 (주석처리 등등) 성적엔 반영 안 됨)
