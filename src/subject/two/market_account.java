@@ -73,6 +73,7 @@ class Account_Manager extends Account_Template {
         if (membership) { // 멤버십 가입 시
             Random mem_random = new Random(); // 랜덤 객체 생성
             membership_num = 1000000000L + (long)(mem_random.nextDouble() * 900000000L); // 멤버십 번호 생성
+            // 이때, 앞자리르 1로 고정하기 위해 1000000000에 뒷자리를 랜덤으로 더하는 방식을 채택함
         }
         register = false; // 등록 완료 상태로 변경
     }
