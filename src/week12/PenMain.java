@@ -10,24 +10,6 @@ class Pen {
     }
 }
 
-class FountainPen extends Pen {
-    private String color;
-
-    public String getColor() {
-        return this.color;
-    }
-    public void setColor(String color) {
-        this.color = color;
-    }
-    public void refill(int n) {
-        setAmount(n);
-    }
-}
-
-class SharpPencil extends Pen {
-    private int width;
-}
-
 class BallPoint extends Pen {
     private String color;
 
@@ -37,10 +19,17 @@ class BallPoint extends Pen {
 	public void setColor(String color) {
 		this.color = color;
 	}
-
 }
 
-class 
+class FountainPen extends BallPoint {
+    public void refill(int n) {
+        setAmount(n);
+    }
+}
+
+class SharpPencil extends Pen {
+    private int width;
+}
 
 public class PenMain {
     public static void main(String[] args) {
