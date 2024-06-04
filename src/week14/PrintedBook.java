@@ -28,6 +28,6 @@ public class PrintedBook extends BookType {
     public static void main(String[] args) {
         BookType myBook = new PrintedBook("어린왕자", "ㅁㄴㅇㄹ", 400);
         myBook.showInfo();
-        BookType bb = new BookType("인어공주", "??");
+        BookType bb = new BookType("인어공주", "??"); // Abstract 클래스이기 때문에 객체 생성이 불가능 함
     }
 }
