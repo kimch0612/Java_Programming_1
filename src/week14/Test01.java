@@ -28,4 +28,4 @@ public class Test01 {
 // abstract (추상적인)
 // prototype은 원형(시제품)이라고 생각하면 됨, c에서 함수의 원형을 작성했던 것이랑 동일한 듯?
 
-// Animal animal1 = new Cat(); 이 경우 animal1은 Animal을 따라감
+// Animal animal1 = new Cat(); 이 경우 animal1은 Animal을 따라가나, 메소드 등을 호출할 때에는 하위클래스의 오버라이딩 된 것들을 사용함
