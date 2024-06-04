@@ -17,7 +17,16 @@ abstract class BookType{
 }
 
 public class PrintedBook extends BookType {
+    int pages;
+    public PrintedBook(String title, String author, int pages) {
+        super(title, author);
+        this.pages = pages;
+    }
+    void showInfo() {
+        System.out.println(title + " " + author + " " + pages);
+    }
     public static void main(String[] args) {
-        
+        BookType myBook = new PrintedBook("어린왕자", "ㅁㄴㅇㄹ", 400);
+        myBook.showInfo();
     }
 }
