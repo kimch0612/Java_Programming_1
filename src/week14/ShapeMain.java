@@ -1,16 +1,16 @@
 package week14;
 
-abstract class Shape {
+interface Shape {
     abstract double calArea();
     abstract double calPerimeter();
 }
 
-class Circle extends Shape {
+class Circle implements Shape {
     private double radius;
-    double calArea() {
+    public double calArea() {
         return Math.PI * radius * radius;
     }
-    double calPerimeter() {
+    public double calPerimeter() {
         return 2 * Math.PI * radius;
     }
     public Circle(double radius) {
@@ -18,13 +18,13 @@ class Circle extends Shape {
     }
 }
 
-class Rectangle extends Shape {
+class Rectangle implements Shape {
     private double width;
     private double length;
-    double calArea() {
+    public double calArea() {
         return width * length;
     }
-    double calPerimeter() {
+    public double calPerimeter() {
         return 2*width + 2*length;
     }
     public Rectangle(double width, double length) {
