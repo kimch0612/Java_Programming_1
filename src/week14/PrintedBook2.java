@@ -16,9 +16,9 @@ abstract class BookType{
     abstract void showInfo();
 }
 
-public class PrintedBook extends BookType {
+public class PrintedBook2 extends BookType {
     int pages;
-    public PrintedBook(String title, String author, int pages) {
+    public PrintedBook2(String title, String author, int pages) {
         super(title, author);
         this.pages = pages;
     }
@@ -26,8 +26,10 @@ public class PrintedBook extends BookType {
         System.out.println(title + " " + author + " " + pages);
     }
     public static void main(String[] args) {
-        BookType myBook = new PrintedBook("어린왕자", "ㅁㄴㅇㄹ", 400);
+        BookType myBook = new PrintedBook2("어린왕자", "생쥐", 200);
         myBook.showInfo();
-        BookType bb = new BookType("인어공주", "??"); // Abstract 클래스이기 때문에 객체 생성이 불가능 함
+        myBook.setAuthor("조지 우웰");
+        myBook.setTitle("1984");
+        myBook.showInfo();
     }
 }
