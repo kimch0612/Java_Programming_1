@@ -1,5 +1,9 @@
 package week14;
 
+abstract class Animal {
+    abstract void cry(); // 추상메소드가 하나라도 있다면 클래스도 추상이 되어야 함
+}
+
 class B {
     final void bcd() {
         int a=3;
@@ -20,3 +24,8 @@ public class Test01 {
 // String name = "Kim";
 // Kim은 Constant string pool에 들어가있음 (heap 내에 constant string pool 내에 kim 저장)
 // Constant string pool에 저장된 kim의 주소값이 name에 저장됨
+
+// abstract (추상적인)
+// prototype은 원형(시제품)이라고 생각하면 됨, c에서 함수의 원형을 작성했던 것이랑 동일한 듯?
+
+// Animal animal1 = new Cat(); 이 경우 animal1은 Animal을 따라감
