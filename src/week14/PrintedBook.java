@@ -22,7 +22,7 @@ public class PrintedBook extends BookType {
         super(title, author);
         this.pages = pages;
     }
-    void showInfo() {
+    void showInfo() { // 구현한 메소드 (implements)
         System.out.println(title + " " + author + " " + pages);
     }
     public static void main(String[] args) {
