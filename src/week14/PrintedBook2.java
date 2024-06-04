@@ -33,3 +33,7 @@ public class PrintedBook2 extends BookType {
         myBook.showInfo();
     }
 }
+
+// 시험 범위는 interface까지, 문제는 10문제 내외로
+// 중간고사처럼 문제를 내지는 않을거고, 출력 결과나 오류가 있다면 왜 오류가 나는지, 메모리 구동 구조, 코드 빈칸 넣기 등이 나올 예정
+// 오픈북이고, 시험 시간은 10시부터 시작
