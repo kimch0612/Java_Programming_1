@@ -16,7 +16,7 @@ abstract class BookType{
     abstract void showInfo();
 }
 
-public class PrintedBook {
+public class PrintedBook extends BookType {
     public static void main(String[] args) {
         
     }
